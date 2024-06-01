@@ -1,0 +1,1 @@
+export { GetLatLng } from './GetLatLng'

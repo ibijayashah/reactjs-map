@@ -1,0 +1,60 @@
+{
+  "name": "reactjs-map",
+  "description": "A React component library providing dynamic map functionality with Leaflet",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "author": "Bijaya Shah",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "prepare": "pnpm build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check .",
+    "lint:fix": "npx eslint --ext .js,.jsx,.ts,.tsx,.vue src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibijayashah/reactjs-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibijayashah/reactjs-map/issues"
+  },
+  "homepage": "https://github.com/ibijayashah/reactjs-map#readme",
+  "keywords": [
+    "react js map",
+    "react-map",
+    "react-leaflet",
+    "leaflet",
+    "map",
+    "react"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^20.12.13",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "types"
+  ]
+}

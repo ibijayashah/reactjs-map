@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.map_container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.map_error {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: black;
+  z-index: 999;
+}
